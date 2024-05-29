@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/wallpappergames"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="normal|bold|italic"
+        android:textColor="#fff"
+        android:id="@+id/btn1Home"
+        android:background="@drawable/buttonmenu"
+        android:padding="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/tablas1" />
+
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="normal|bold|italic"
+        android:textColor="#fff"
+        android:id="@+id/btn2Home"
+        android:background="@drawable/buttonmenu"
+        android:padding="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/tablas2" />
+
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="normal|bold|italic"
+        android:textColor="#fff"
+        android:id="@+id/btn3Home"
+        android:background="@drawable/buttonmenu"
+        android:padding="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/tablas3" />
+
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="normal|bold|italic"
+        android:textColor="#fff"
+        android:id="@+id/btn4Home"
+        android:background="@drawable/buttonmenu"
+        android:padding="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tablas4" />
+</LinearLayout>

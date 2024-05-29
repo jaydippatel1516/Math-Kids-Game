@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="6">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/wallpappergames"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="5"
+        android:layout_weight="6">
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="3dp"
+            android:weightSum="6"
+            android:layout_weight="2">
+
+            <ImageView
+                android:id="@+id/primerdigito"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gamenumber1"
+                android:scaleType="fitCenter"
+                android:layout_weight="2" />
+
+            <ImageView
+                android:id="@+id/imasuma"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/signaddition"
+                android:scaleType="fitXY"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/segundodigito"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gamenumber1"
+                android:scaleType="fitCenter"
+                android:layout_weight="2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.8">
+
+            <ImageView
+                android:id="@+id/imaigual"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/equalsign"
+                android:scaleType="centerCrop" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:textSize="40sp"
+                android:textColor="#fff"
+                android:id="@+id/opcion1"
+                android:background="#3480b6"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="2" />
+
+            <TextView
+                android:textSize="40sp"
+                android:textColor="#fff"
+                android:id="@+id/opcion2"
+                android:background="#3480b6"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:text="4" />
+
+            <TextView
+                android:textSize="40sp"
+                android:textColor="#fff"
+                android:id="@+id/opcion3"
+                android:background="#3480b6"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.2">
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#fff"
+                android:id="@+id/siguiente"
+                android:background="@drawable/buttonnext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:text="@string/siguiente" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#3d8cbe"
+        android:layout_width="match_parent"
+        android:layout_height="8dp" />
+
+
+</LinearLayout>
